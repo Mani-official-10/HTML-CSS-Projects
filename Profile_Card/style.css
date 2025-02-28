@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
 *{
@@ -138,3 +139,145 @@
     border-right: none;
 }
 
+=======
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* main container */
+.container{
+    background-color: #afadad;
+    height: 100vh;
+    width: 100wh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* firstbox styling */
+
+.firstbox{
+    background-color: #567ff0;
+    /* color: black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 140px;
+    border-radius: 25px 25px 0px 0px;
+    /* box-shadow: 2px 0px rgb(207, 206, 206); */
+}   
+
+.firstbox #image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #f1f1f1;
+}
+
+.firstbox #image {
+    position: relative;
+    top: 25px;
+    background-color: #0949f8;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    padding: 3px;
+}
+
+/* Secondbox styling*/
+
+.secondbox{
+    background-color: #fff;
+    width: 250px;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0px 0px 25px 25px;
+}
+
+.secondbox #head{
+    padding: 17px 0px 0px 0px;
+}
+
+.secondbox #head #text{
+    font-weight:normal;
+    font-size: 20px;
+}
+
+.secondbox #disc {
+    padding: 3px;
+}
+
+.secondbox #disc #para{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.secondbox #handles .icon{
+    /* color: black; */
+    margin: 5px;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+#face{
+    color: blue;
+    padding: 5px;
+}
+#insta{
+    color: rgb(255, 0, 221);
+    padding: 5px;
+}
+#twit{
+    color: rgb(23, 232, 247);
+    padding: 5px;
+}
+#link{
+    color: blue;
+    padding: 5px;
+}
+
+#sub{
+    padding-top: 8px;
+}
+
+.secondbox #sub .subs{
+    margin: 5px 15px;
+    background-color: #567ff0;
+    height: 30px;
+    width: 80px;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    padding: 5px;
+}
+
+#like{
+    display: flex;
+}
+
+
+
+.secondbox .likes{
+    padding: 5px 10px;
+    margin: 5px;
+    font-size: 15px;
+    font-weight: 900;
+    border-right: 2px solid #e0dcdc;
+
+}
+
+.likes:last-child{
+    border-right: none;
+}
+
+>>>>>>> 1eb1090f0bbd35471d36b9074fc39404dbf75171
